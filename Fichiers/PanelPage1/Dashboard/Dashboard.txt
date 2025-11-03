@@ -22,15 +22,14 @@
   </template>
   
   <script setup>
-  
-  import Sidebarre from '@/Vendor/TassiliLibs/Sidebarre.vue';
+  import SideBarre from '../SideBarre.vue';
+  import NavBarre from '../NavBarre.vue';
   import ChartBarre from '@/Vendor/TassiliLibs/Charts/ChartBarre.vue';
   import ChartPolarArea from '@/Vendor/TassiliLibs/Charts/ChartPolarArea.vue';
   import ChartLine from '@/Vendor/TassiliLibs/Charts/ChartLine.vue';
   import Widget from  '@/Vendor/TassiliLibs/Widgets/Widget.vue';
   import TopBarre from '@/Vendor/TassiliLibs/TopBarre.vue';
   import { TassiliRoutes } from '@/Vendor/TassiliLibs/stores/tassiliRoutes';
-  import NavBarre from '@/Vendor/TassiliLibs/NavBarre.vue';
 
   const props = defineProps({
   tassiliSettings: {
