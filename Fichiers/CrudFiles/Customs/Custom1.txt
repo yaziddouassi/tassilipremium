@@ -1,0 +1,26 @@
+<template>
+  <div class="min-[800px]:flex w-full text-black">
+     <SideBarre/>
+     <div class="min-h-[100vh] w-full  overflow-x-auto bg-[#DFDFDF]">
+        <NavBarre/> 
+   
+        <ModalForm/>
+        
+     </div>
+
+  </div>
+</template>
+
+<script setup>
+import SideBarre from '../../../SideBarre.vue';
+import NavBarre from '../../../NavBarre.vue';
+import { formService } from '@/Vendor/TassiliLibs/Service/formService';
+import ModalForm from '@/Vendor/TassiliLibs/Forms/ModalForm.vue';
+import { usePage } from '@inertiajs/vue3';
+
+const {setForm} = formService()
+const page = usePage()
+
+setForm()
+
+</script>

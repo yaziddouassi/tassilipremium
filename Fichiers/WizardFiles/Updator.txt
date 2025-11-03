@@ -1,0 +1,33 @@
+<template>
+  <div class="min-[800px]:flex w-full text-black">
+    <Sidebarre/>
+
+     <div class="min-h-[100vh] w-full  overflow-x-auto bg-[#DFDFDF]">
+        <NavBarre/> 
+        <TopPage/>
+        
+        <WizardUpdate :form-key="page.props.pageSettings.validationUrl" :record="'record'" />
+
+        <ModalForm />
+
+     </div>
+
+  </div>
+</template>
+
+<script setup>
+import Sidebarre from '../../Sidebarre.vue';
+import NavBarre from '../../NavBarre.vue';
+import { formService } from '@/Vendor/TassiliLibs/Service/formService';
+import WizardUpdate from '@/Vendor/TassiliLibs/Forms/WizardUpdate.vue';
+import ModalForm from '@/Vendor/TassiliLibs/Forms/ModalForm.vue';
+import { TassiliInput } from '@/Vendor/TassiliLibs/stores/tassiliInput';
+import TopPage from '@/Vendor/TassiliLibs/Updator/TopPage.vue';
+import { usePage } from '@inertiajs/vue3';
+
+const {setForm} = formService()
+const page = usePage()
+const tassiliInput = TassiliInput()
+setForm()
+
+</script>
