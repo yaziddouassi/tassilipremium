@@ -82,8 +82,8 @@ class TassiliForm
         $this->tassiliFormList[$settings['url']]['info']['routeSessionData'] = [];
         $this->tassiliFormList[$settings['url']]['info']['route'] = '';
         $this->tassiliFormList[$settings['url']]['info']['isAnimated'] = 'off';
-        $this->tassiliFormList[$settings['url']]['info']['createMessage'] = 'Record created23'; 
-        $this->tassiliFormList[$settings['url']]['info']['updateMessage'] = 'Record updated23';
+        $this->tassiliFormList[$settings['url']]['info']['createMessage'] = 'Record created'; 
+        $this->tassiliFormList[$settings['url']]['info']['updateMessage'] = 'Record updated';
         $this->customActionUrlTemoin = $settings['url'];
         
         return $this;
