@@ -1,6 +1,6 @@
 <template>
     <div class="min-[800px]:flex w-full">
-      <Sidebarre/>
+      <SideBarre/>
         <div class="min-h-[100vh] w-full overflow-x-auto  bg-[#CFCFCF]">
           <NavBarre/>
           <TopBarre/>

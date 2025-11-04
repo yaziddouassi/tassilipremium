@@ -1,6 +1,6 @@
 <template>
   <div class="min-[800px]:flex w-full text-black">
-    <Sidebarre/>
+    <SideBarre/>
 
      <div class="min-h-[100vh] w-full  overflow-x-auto bg-[#DFDFDF]">
         <NavBarre/> 
@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import Sidebarre from '../../Sidebarre.vue';
+import SideBarre from '../../SideBarre.vue';
 import NavBarre from '../../NavBarre.vue';
 import { formService } from '@/Vendor/TassiliLibs/Service/formService';
 import WizardUpdate from '@/Vendor/TassiliLibs/Forms/WizardUpdate.vue';
