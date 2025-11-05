@@ -14,8 +14,6 @@
             </svg>
           </div>
         </div>
-
-        {{ tassiliInput.formType }}
        
         <div class="m-auto mt-[40px] p-[10px]"
           :style="{maxWidth: taille}">
