@@ -36,7 +36,6 @@
         <Paginator :pagination="page.props.tassiliSettings.items" />
       </div>
 
-
     </div>
  </template>
  
