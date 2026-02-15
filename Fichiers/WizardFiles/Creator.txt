@@ -18,10 +18,10 @@
 <script setup>
 import SideBarre from '../../SideBarre.vue';
 import NavBarre from '../../NavBarre.vue';
-import { formService } from '@/Vendor/TassiliLibs/Service/formService';
-import WizardCreate from '@/Vendor/TassiliLibs/Forms/WizardCreate.vue';
-import TopPage from '@/Vendor/TassiliLibs/Creator/TopPage.vue';
-import ModalForm from '@/Vendor/TassiliLibs/Forms/ModalForm.vue';
+import { formService } from '@/vendor/TassiliLibs/Service/formService';
+import WizardCreate from '@/vendor/TassiliLibs/Forms/WizardCreate.vue';
+import TopPage from '@/vendor/TassiliLibs/Creator/TopPage.vue';
+import ModalForm from '@/vendor/TassiliLibs/Forms/ModalForm.vue';
 import { usePage } from '@inertiajs/vue3';
 
 const {setForm} = formService()

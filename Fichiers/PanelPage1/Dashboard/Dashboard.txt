@@ -24,12 +24,12 @@
   <script setup>
   import SideBarre from '../SideBarre.vue';
   import NavBarre from '../NavBarre.vue';
-  import ChartBarre from '@/Vendor/TassiliLibs/Charts/ChartBarre.vue';
-  import ChartPolarArea from '@/Vendor/TassiliLibs/Charts/ChartPolarArea.vue';
-  import ChartLine from '@/Vendor/TassiliLibs/Charts/ChartLine.vue';
-  import Widget from  '@/Vendor/TassiliLibs/Widgets/Widget.vue';
-  import TopBarre from '@/Vendor/TassiliLibs/TopBarre.vue';
-  import { TassiliRoutes } from '@/Vendor/TassiliLibs/stores/tassiliRoutes';
+  import ChartBarre from '@/vendor/TassiliLibs/Charts/ChartBarre.vue';
+  import ChartPolarArea from '@/vendor/TassiliLibs/Charts/ChartPolarArea.vue';
+  import ChartLine from '@/vendor/TassiliLibs/Charts/ChartLine.vue';
+  import Widget from  '@/vendor/TassiliLibs/Widgets/Widget.vue';
+  import TopBarre from '@/vendor/TassiliLibs/TopBarre.vue';
+  import { TassiliRoutes } from '@/vendor/TassiliLibs/stores/tassiliRoutes';
 
   const props = defineProps({
   tassiliSettings: {

@@ -1,6 +1,6 @@
 import { usePage } from '@inertiajs/vue3'
-import { TassiliRoutes } from '@/Vendor/TassiliLibs/stores/tassiliRoutes'
-import {TassiliInput}    from '@/Vendor/TassiliLibs/stores/tassiliInput'
+import { TassiliRoutes } from '@/vendor/TassiliLibs/stores/tassiliRoutes'
+import {TassiliInput}    from '@/vendor/TassiliLibs/stores/tassiliInput'
 import { TassiliBulk } from '../stores/tassiliBulk'
 
 export function formService() {

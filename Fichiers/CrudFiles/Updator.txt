@@ -20,11 +20,11 @@
 <script setup>
 import SideBarre from '../../SideBarre.vue';
 import NavBarre from '../../NavBarre.vue';
-import { formService } from '@/Vendor/TassiliLibs/Service/formService';
-import FormUpdate from '@/Vendor/TassiliLibs/Forms/FormUpdate.vue';
-import ModalForm from '@/Vendor/TassiliLibs/Forms/ModalForm.vue';
-import { TassiliInput } from '@/Vendor/TassiliLibs/stores/tassiliInput';
-import TopPage from '@/Vendor/TassiliLibs/Updator/TopPage.vue';
+import { formService } from '@/vendor/TassiliLibs/Service/formService';
+import FormUpdate from '@/vendor/TassiliLibs/Forms/FormUpdate.vue';
+import ModalForm from '@/vendor/TassiliLibs/Forms/ModalForm.vue';
+import { TassiliInput } from '@/vendor/TassiliLibs/stores/tassiliInput';
+import TopPage from '@/vendor/TassiliLibs/Updator/TopPage.vue';
 import { usePage } from '@inertiajs/vue3';
 
 const {setForm} = formService()

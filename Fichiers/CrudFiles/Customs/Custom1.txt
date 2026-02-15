@@ -14,8 +14,8 @@
 <script setup>
 import SideBarre from '../../../SideBarre.vue';
 import NavBarre from '../../../NavBarre.vue';
-import { formService } from '@/Vendor/TassiliLibs/Service/formService';
-import ModalForm from '@/Vendor/TassiliLibs/Forms/ModalForm.vue';
+import { formService } from '@/vendor/TassiliLibs/Service/formService';
+import ModalForm from '@/vendor/TassiliLibs/Forms/ModalForm.vue';
 import { usePage } from '@inertiajs/vue3';
 
 const {setForm} = formService()

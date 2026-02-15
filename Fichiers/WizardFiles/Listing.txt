@@ -26,11 +26,11 @@
 <script setup>
 import SideBarre from '../../SideBarre.vue';
 import NavBarre from '../../NavBarre.vue';
-import {listingService} from '@/Vendor/TassiliLibs/Service/listingService'
-import ListeTop from '@/Vendor/TassiliLibs/Listing/ListeTop.vue';
-import FilterListTop from '@/Vendor/TassiliLibs/Listing/FilterListTop.vue';
-import FilterList from '@/Vendor/TassiliLibs/Listing/FilterList.vue';
-import { TassiliListing } from '@/Vendor/TassiliLibs/stores/tassiliListing';
+import {listingService} from '@/vendor/TassiliLibs/Service/listingService'
+import ListeTop from '@/vendor/TassiliLibs/Listing/ListeTop.vue';
+import FilterListTop from '@/vendor/TassiliLibs/Listing/FilterListTop.vue';
+import FilterList from '@/vendor/TassiliLibs/Listing/FilterList.vue';
+import { TassiliListing } from '@/vendor/TassiliLibs/stores/tassiliListing';
 import ListRecord from './ListRecord.vue';
 
 const tassililisting = TassiliListing();

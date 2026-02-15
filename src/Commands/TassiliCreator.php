@@ -74,7 +74,7 @@ if ($uses > $maxUses) {
 
 
 
-         $path = resource_path('js/Vendor');
+         $path = resource_path('js/vendor');
 
          $sourcePath1 = base_path('vendor/tassili/premium/Fichiers/RouteFiles/tassili.php');
 
@@ -112,7 +112,7 @@ if ($uses > $maxUses) {
          //////////////////////////////////////////////////////////////////////////////////////////////////////
             $sourcePath4 = base_path('vendor/tassili/premium/Fichiers/TassiliLibs1');
        
-            $temp4 = 'resources/js/Vendor/TassiliLibs'  ;
+            $temp4 = 'resources/js/vendor/TassiliLibs'  ;
     
             $directory4 = base_path($temp4);
     
