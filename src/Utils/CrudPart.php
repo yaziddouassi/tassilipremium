@@ -264,7 +264,7 @@ class ListingController extends Controller
      #[Post('$panel/$c/modal1', middleware: ['tassili.auth'])]
     public function modal1(Request \$request)
     {
-       
+        \$request->validate(['name' => ['required']]);
         \$this->utility->record = \$this->modelClass::find(\$request->id);
 
         if (\$this->utility->record !== null) {
